@@ -21,12 +21,7 @@ define('WP_SITEURL', 'https://fd-cdv.azurefd.net' );
 define('WP_HOME', 'https://fd-cdv.azurefd.net'); 
 define('AFD_ENABLED', true);
 define('AFD_ENDPOINT', 'https://fd-cdv.azurefd.net');
-define( 'COOKIEPATH', preg_replace( '|https?://[^/]+|i', '', get_option( 'home' ) . '/' ) );
-define( 'SITECOOKIEPATH', preg_replace( '|https?://[^/]+|i', '', get_option( 'siteurl' ) . '/' ) );
-define( 'ADMIN_COOKIE_PATH', SITECOOKIEPATH . 'wp-admin' );
-define( 'PLUGINS_COOKIE_PATH', preg_replace( '|https?://[^/]+|i', '', WP_PLUGIN_URL ) );
-define( 'TEMPLATEPATH', get_template_directory() );
-define( 'STYLESHEETPATH', get_stylesheet_directory() );
+
 
 //Add This Code In wp-config.php File To Enable Cache With Expiration
 define('WP_CACHE', true);      // enable the cache
