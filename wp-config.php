@@ -17,6 +17,9 @@
  *
  * @package WordPress
  */
+define('WP_SITEURL', 'https://fd-cdv.azurefd.net' );  
+define('WP_HOME', 'https://fd-cdv.azurefd.net');  
+ https://fd-cdv.azurefd.net
 
 // ** Database settings - You can get this info from your web host ** //
 //** Connect with SSL ** //
