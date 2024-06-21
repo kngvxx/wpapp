@@ -18,7 +18,9 @@
  * @package WordPress
  */
 define('WP_SITEURL', 'https://fd-cdv.azurefd.net' );  
-define('WP_HOME', 'https://fd-cdv.azurefd.net');  
+define('WP_HOME', 'https://fd-cdv.azurefd.net'); 
+define('AFD_ENABLED', true);
+define('AFD_ENDPOINT', 'https://fd-cdv.azurefd.net');
 
 //Add This Code In wp-config.php File To Enable Cache With Expiration
 define('WP_CACHE', true);      // enable the cache
