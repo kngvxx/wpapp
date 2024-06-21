@@ -19,6 +19,10 @@
  */
 
 // ** Database settings - You can get this info from your web host ** //
+//** Connect with SSL ** //
+define('MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL);
+//** SSL CERT **//
+define('MYSQL_SSL_CERT','/home/site/wwwroot/DigiCertGlobalRootCA.crt.pem');
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'wordpress' );
 
