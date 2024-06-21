@@ -20,6 +20,16 @@
 define('WP_SITEURL', 'https://fd-cdv.azurefd.net' );  
 define('WP_HOME', 'https://fd-cdv.azurefd.net');  
 
+//Add This Code In wp-config.php File To Enable Cache With Expiration
+define('WP_CACHE', true);      // enable the cache
+define('ENABLE_CACHE', true);  // enable the cache
+define('CACHE_EXPIRATION_TIME', 3600);  // in seconds
+
+//Add This Code In wp-config.php File To Disable Cache
+define('WP_CACHE', false);     // disable the cache
+define('DISABLE_CACHE', true);  // disable the cache
+
+
 // ** Database settings - You can get this info from your web host ** //
 //** Connect with SSL ** //
 define('MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL);
