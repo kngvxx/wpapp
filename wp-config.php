@@ -27,7 +27,7 @@ define('MYSQL_SSL_CERT','/home/site/wwwroot/DigiCertGlobalRootCA.crt.pem');
 define( 'DB_NAME', 'wordpress' );
 
 /** Database username */
-define( 'DB_USER', 'psqladmin@mysql-master-primary' );
+define( 'DB_USER', 'psqladmin' );
 
 /** Database password */
 define( 'DB_PASSWORD', 'H@Sh1CoR3!' );
